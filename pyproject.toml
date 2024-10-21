@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "local-llm"
+version = "0.1.0"
+description = ""
+authors = ["AZ <azuev@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain-ollama = "^0.2.0"
+langchain = "^0.3.4"
+python-dotenv = "^1.0.1"
+chainlit = "^1.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
